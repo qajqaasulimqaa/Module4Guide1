@@ -1,5 +1,5 @@
 {
-  "homepage": "https://qajqaasulimqaa.github.io/guide1",
+  "homepage": "https://qajqaasulimqaa.github.io/Module4Guide1-/",
   "name": "guide1",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+   "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
