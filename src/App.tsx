@@ -3,10 +3,12 @@ import Button from './Components/Button.tsx';
 import './App.css'
 import NavBar from './Components/NavBar.tsx';
 import Card from './Components/Card.tsx';
+import GrowImage from './Components/Image.tsx';
 
 function App(){
   return(
   <div>
+      <GrowImage />
       <section className="flex justify-start p-10">
         <NavBar />
       </section>
@@ -17,9 +19,8 @@ function App(){
       <Card />
        <Card />
         <Card />
-      <div/>
       </div>
-    </div>
+      </div>
   )
 }
 
